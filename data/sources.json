@@ -1,0 +1,610 @@
+{
+  "_comment": "Every fact on the site points to one of these. official_date = date printed on the official page/document. verified_on = date the page was last fetched and read (by the AI that generates the site). Keep ids stable; they are referenced from states.json, common.json and the JS.",
+  "sources": {
+    "pib-phase3-order": {
+      "title": "Special Intensive Revision – Phase III: SIR to be conducted in 16 States and 3 UTs (schedule in Annexure-I)",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2260955",
+      "official_date": "2026-05-14",
+      "verified_on": "2026-09-09",
+      "note": "Original Phase 3 schedule and qualifying dates; several dates were later extended"
+    },
+    "pib-phase3-enum-start": {
+      "title": "SIR Phase III: Enumeration Phase has started for Odisha, Mizoram, Sikkim and Manipur",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2267217",
+      "official_date": "2026-05-31",
+      "verified_on": "2026-09-09",
+      "note": "States who miss the Enumeration Form deadline can file Form 6 + Declaration during claims; BLOs carry blank Form 6"
+    },
+    "pib-phase2-begins": {
+      "title": "Special Intensive Revision (SIR) Phase-II begins in 9 States and 3 UTs",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186480",
+      "official_date": "2025-11-04",
+      "verified_on": "2026-09-09",
+      "note": "Check last-SIR roll at voters.eci.gov.in; Book-a-call with BLO; dial 1950 with STD code"
+    },
+    "pib-safeguards-2026-07-25": {
+      "title": "ECI's SIR being conducted in phases with multiple safeguards (Lok Sabha reply)",
+      "publisher": "Press Information Bureau (Ministry of Law and Justice)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289473",
+      "official_date": "2026-07-25",
+      "verified_on": "2026-09-09",
+      "note": "Deletion categories, claims via Forms 6/7/8, appeal to DM then CEO, Supreme Court judgment of 27 May 2026"
+    },
+    "pib-helplines": {
+      "title": "ECI launches National and State voter helplines: 1950, toll-free 1800-11-1950, Book-a-Call with BLO",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2183805",
+      "official_date": "2025-10-29",
+      "verified_on": "2026-09-09"
+    },
+    "pib-ecinet-launch": {
+      "title": "ECINET launched, integrating 40+ ECI apps and portals",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2217429",
+      "official_date": "2026-01-22",
+      "verified_on": "2026-09-09"
+    },
+    "pib-forms-2022": {
+      "title": "Revised forms: single Form 8, advance application for 17+ year olds, four qualifying dates",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1845738",
+      "official_date": "2022-07-28",
+      "verified_on": "2026-09-09"
+    },
+    "pib-bihar-draft": {
+      "title": "Bihar SIR: draft electoral roll published on 1 August 2025; claims and objections 1 Aug – 1 Sep",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151531",
+      "official_date": "2025-08-01",
+      "verified_on": "2026-09-09",
+      "note": "Also: no name can be deleted from the draft without a hearing and a written order"
+    },
+    "pib-bihar-final": {
+      "title": "SIR of electoral rolls in Bihar successfully completed; final roll 30 September 2025",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173316",
+      "official_date": "2025-09-30",
+      "verified_on": "2026-09-09"
+    },
+    "pib-phase2-revised": {
+      "title": "ECI revises Phase II SIR schedule by one week; final roll on 14 February 2026",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2196502",
+      "official_date": "2025-11-30",
+      "verified_on": "2026-09-09"
+    },
+    "pib-phase2-revised-6": {
+      "title": "ECI revises SIR schedule in 6 States/UT: Tamil Nadu and Gujarat (enumeration to 14 Dec, draft 19 Dec), Madhya Pradesh, Chhattisgarh and A&N (18 Dec / 23 Dec), Uttar Pradesh (26 Dec / 31 Dec); Kerala earlier revised to 18 Dec / 23 Dec",
+      "publisher": "Press Information Bureau (Election Commission of India)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2202341",
+      "official_date": "2025-12-11",
+      "verified_on": "2026-09-09"
+    },
+    "eci-phase2-order": {
+      "title": "ECI order No. 23/2025-ERS(Vol.II) of 27 Oct 2025 ordering SIR in 12 States/UTs, with Enumeration Form, Declaration Form, list of 13 documents and last-SIR years (Annexure V)",
+      "publisher": "Election Commission of India (copy hosted by CEO Kerala)",
+      "url": "https://www.ceo.kerala.gov.in/uploads/sir-2026/sir-12-states.pdf",
+      "official_date": "2025-10-27",
+      "verified_on": "2026-09-09",
+      "note": "Phase 3 uses the same forms and document list per the 14 May 2026 order"
+    },
+    "ceo-andaman-enum-form": {
+      "title": "Enumeration Form with Information Sheet (age-based document rule and list of 13 documents)",
+      "publisher": "Chief Electoral Officer, Andaman & Nicobar Islands (ECI form)",
+      "url": "https://www.ceoandaman.nic.in/election/AnnounceContent/Enumeration%20Form.pdf",
+      "official_date": "2025-10-27",
+      "verified_on": "2026-09-09",
+      "note": "Undated PDF; identical to Annexure III of the ECI order of 27 Oct 2025"
+    },
+    "sc-judgment-2026-05-27": {
+      "title": "Supreme Court judgment, Association for Democratic Reforms v. Election Commission of India, W.P.(C) 640/2025 (2026 INSC 564)",
+      "publisher": "Supreme Court of India",
+      "url": "https://api.sci.gov.in/supremecourt/2025/35785/35785_2025_1_1501_71617_Judgement_27-May-2026.pdf",
+      "official_date": "2026-05-27",
+      "verified_on": "2026-09-09",
+      "note": "Upholds SIR; Aadhaar is identity proof, not proof of citizenship; deletion on citizenship grounds must be referred to the competent authority"
+    },
+    "rer-1960": {
+      "title": "Registration of Electors Rules, 1960 (Rules 8B, 12, 13, 20, 21A, 23, 26, 27) – Manual of Election Law Vol. II",
+      "publisher": "Election Commission of India (Government of India S3WaaS CDN)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/12/202412041530357192.pdf",
+      "official_date": "2024-12-04",
+      "verified_on": "2026-09-09",
+      "note": "Large PDF"
+    },
+    "rpa-1950": {
+      "title": "Representation of the People Act, 1950 – Sections 21 (revision), 23 (inclusion; no changes after last date of nominations) and 24 (appeals)",
+      "publisher": "Legislative Department, Ministry of Law and Justice (Government of India)",
+      "url": "https://www.legislative.gov.in/electionlawsrelated/representation-people-act-1950-43-1950",
+      "official_date": "1950-05-12",
+      "verified_on": "2026-09-09",
+      "note": "India Code page was returning errors on 9 Sep 2026; the appeal route is also stated in the PIB note of 25 Jul 2026"
+    },
+    "newsonair-extension-2026-07-15": {
+      "title": "ECI extends SIR schedule in Punjab, Karnataka, Telangana and Delhi",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/eci-extends-schedule-for-sir-in-punjab-by-11-days/",
+      "official_date": "2026-07-15",
+      "verified_on": "2026-09-09",
+      "note": "Delhi and Karnataka were extended again later (see the Delhi articles of 4 and 19 Aug 2026 and the CEO Karnataka site)"
+    },
+    "newsonair-haryana-ap-2026-07-14": {
+      "title": "EC extends deadline for SIR in Haryana and Andhra Pradesh for 10 more days till 24 July",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/ec-extends-deadline-for-sir-in-haryana-and-andhra-for-10-more-days-till-24th-july/",
+      "official_date": "2026-07-14",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-punjab-haryana-2026-05-14": {
+      "title": "SIR-III: final electoral rolls for Punjab on 1 Oct, for Haryana and Chandigarh 22 Sep (original schedule)",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/sir-iii-final-electoral-rolls-for-punjab-on-1st-oct-for-haryana-chandigarh-22nd-sep/",
+      "official_date": "2026-05-14",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-delhi-draft": {
+      "title": "Draft electoral roll under SIR published in Delhi; claims till 30 Sep, final roll 4 Nov",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/draft-electoral-roll-under-sir-published-in-delhi-today/",
+      "official_date": "2026-08-31",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-assam-sr-order": {
+      "title": "EC orders Special Revision of Assam electoral rolls with 1 January 2026 as qualifying date",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/ec-orders-special-revision-of-assam-electoral-rolls-effective-1-january-2026",
+      "official_date": "2025-11-18",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-assam-final": {
+      "title": "Assam publishes final electoral roll after Special Revision; SIR in Assam after the assembly elections",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/assam-to-publish-final-electoral-roll-after-door-to-door-special-revision",
+      "official_date": "2026-02-10",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-wb-extended": {
+      "title": "ECI publishes final voter list for Special Revision in Assam; extends West Bengal SIR deadline to 28 February",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/eci-publishes-final-voter-list-for-special-revision-in-assam-extends-west-bengal-sir-deadline-to-feb-28",
+      "official_date": "2026-02-10",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-chhattisgarh-final": {
+      "title": "Election Commission publishes Chhattisgarh's final electoral roll",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/election-commission-publishes-chhattisgarhs-final-electoral-roll",
+      "official_date": "2026-02-21",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-aadhaar-sc": {
+      "title": "Supreme Court allows Aadhaar as 12th identity document for Bihar voter list revision; not proof of citizenship",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/supreme-court-allows-aadhaar-as-12th-identity-document-for-bihar-voter-list-revision",
+      "official_date": "2025-09-08",
+      "verified_on": "2026-09-09"
+    },
+    "eci-voters-portal": {
+      "title": "Voters' Services Portal (Form 6/6A/7/8 online, search in last SIR roll, track Enumeration Form and applications, download rolls)",
+      "publisher": "Election Commission of India",
+      "url": "https://voters.eci.gov.in/",
+      "official_date": "2025-10-27",
+      "verified_on": "2026-09-09",
+      "note": "Blocks automated checks (WAF); verified in a browser. Deep links: /form6 /form6a /form7 /form8 /searchInSIR/ /enumFormTrack /home/track /home/bookACallRequest"
+    },
+    "eci-electoral-search": {
+      "title": "Search your name in the electoral roll (by EPIC, details or mobile)",
+      "publisher": "Election Commission of India",
+      "url": "https://electoralsearch.eci.gov.in/",
+      "official_date": "2026-09-09",
+      "verified_on": "2026-09-09"
+    },
+    "eci-ecinet": {
+      "title": "ECINET – ECI's unified app and portal (Android and iOS)",
+      "publisher": "Election Commission of India",
+      "url": "https://ecinet.eci.gov.in/",
+      "official_date": "2026-01-22",
+      "verified_on": "2026-09-09",
+      "note": "Android: play.google.com/store/apps/details?id=in.gov.eci.app · iOS: apps.apple.com/in/app/id6745955212"
+    },
+    "nalsa-helpline": {
+      "title": "National Legal Services Authority (NALSA): free legal aid, toll-free helpline 15100",
+      "publisher": "National Legal Services Authority (Government of India)",
+      "url": "https://nalsa.gov.in/",
+      "official_date": "2026-09-09",
+      "verified_on": "2026-09-09"
+    },
+    "ceo-ap": {
+      "title": "Chief Electoral Officer, Andhra Pradesh – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Andhra Pradesh",
+      "url": "https://ceoaperolls.ap.gov.in/SIR2002/DistrictDashboard",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-ar": {
+      "title": "Chief Electoral Officer, Arunachal Pradesh – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Arunachal Pradesh",
+      "url": "https://ceoarunachal.nic.in/sir-2026",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-as": {
+      "title": "Chief Electoral Officer, Assam – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Assam",
+      "url": "https://ceoassam.nic.in/summary/special-revision-2026.html",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-br": {
+      "title": "Chief Electoral Officer, Bihar – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Bihar",
+      "url": "https://ceoelection.bihar.gov.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-cg": {
+      "title": "Chief Electoral Officer, Chhattisgarh – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Chhattisgarh",
+      "url": "https://ceochhattisgarh.nic.in/both/SIR.html",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-ga": {
+      "title": "Chief Electoral Officer, Goa – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Goa",
+      "url": "https://ceogoa.nic.in/appln/UIL/SIR2026.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-gj": {
+      "title": "Chief Electoral Officer, Gujarat – official website",
+      "publisher": "Chief Electoral Officer, Gujarat",
+      "url": "https://ceo.gujarat.gov.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-hr": {
+      "title": "Chief Electoral Officer, Haryana – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Haryana",
+      "url": "https://ceoharyana.gov.in/WebCMS/Start/1985",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-hp": {
+      "title": "Chief Electoral Officer, Himachal Pradesh – official website",
+      "publisher": "Chief Electoral Officer, Himachal Pradesh",
+      "url": "https://ceohimachal.hp.gov.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-jh": {
+      "title": "Chief Electoral Officer, Jharkhand – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Jharkhand",
+      "url": "https://ceo.jharkhand.gov.in/SIRASD2026/SIRJharkhand.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-ka": {
+      "title": "Chief Electoral Officer, Karnataka – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Karnataka",
+      "url": "https://ceo.karnataka.gov.in/en",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Homepage links the SIR booklet, draft roll and last-SIR search. Revised schedule (draft 24 Aug, claims till 23 Sep, final 27 Oct 2026) is on the CEO site."
+    },
+    "ceo-kl": {
+      "title": "Chief Electoral Officer, Kerala – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Kerala",
+      "url": "https://www.ceo.kerala.gov.in/sir",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026; office numbers +91 471 2300121 / 2307168 are on the CEO Kerala telephone page"
+    },
+    "ceo-mp": {
+      "title": "Chief Electoral Officer, Madhya Pradesh – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Madhya Pradesh",
+      "url": "https://ceoelection.mp.gov.in/SIR2003.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-mh": {
+      "title": "Chief Electoral Officer, Maharashtra – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Maharashtra",
+      "url": "https://ceoelection.maharashtra.gov.in/ceo/ElectorRoll.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-mn": {
+      "title": "Chief Electoral Officer, Manipur – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Manipur",
+      "url": "https://ceomanipur.nic.in/sir.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-ml": {
+      "title": "Chief Electoral Officer, Meghalaya – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Meghalaya",
+      "url": "https://ceomeghalaya.nic.in/erolls/asdd/asdd.html",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-mz": {
+      "title": "Chief Electoral Officer, Mizoram – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Mizoram",
+      "url": "https://ceo.mizoram.gov.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-nl": {
+      "title": "Chief Electoral Officer, Nagaland – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Nagaland",
+      "url": "https://ceo.nagaland.gov.in/sir_2026",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-or": {
+      "title": "Chief Electoral Officer, Odisha – official website",
+      "publisher": "Chief Electoral Officer, Odisha",
+      "url": "https://ceoodisha.nic.in/en/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-pb": {
+      "title": "Chief Electoral Officer, Punjab – official website",
+      "publisher": "Chief Electoral Officer, Punjab",
+      "url": "https://www.ceopunjab.gov.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-rj": {
+      "title": "Chief Electoral Officer, Rajasthan – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Rajasthan",
+      "url": "https://election.rajasthan.gov.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-sk": {
+      "title": "Chief Electoral Officer, Sikkim – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Sikkim",
+      "url": "https://ceo.sikkim.gov.in/SIRElectoral/SIRElectoralGeneral",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-tn": {
+      "title": "Chief Electoral Officer, Tamil Nadu – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Tamil Nadu",
+      "url": "https://www.elections.tn.gov.in/SIR_2026.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-ts": {
+      "title": "Chief Electoral Officer, Telangana – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Telangana",
+      "url": "https://ceotelangana.nic.in/SIR_2026.html",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-tr": {
+      "title": "Chief Electoral Officer, Tripura – official website",
+      "publisher": "Chief Electoral Officer, Tripura",
+      "url": "https://ceotripura.nic.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-up": {
+      "title": "Chief Electoral Officer, Uttar Pradesh – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Uttar Pradesh",
+      "url": "https://ceouttarpradesh.nic.in/ASD_SIR2026.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-uk": {
+      "title": "Chief Electoral Officer, Uttarakhand – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Uttarakhand",
+      "url": "https://ceo.uk.gov.in/sir-2026/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-wb": {
+      "title": "Chief Electoral Officer, West Bengal – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, West Bengal",
+      "url": "https://ceowestbengal.wb.gov.in/SIR",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-an": {
+      "title": "Chief Electoral Officer, Andaman & Nicobar Islands – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Andaman & Nicobar Islands",
+      "url": "https://www.ceoandaman.nic.in/election/E-ROLL-2002/default.htm",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-ch": {
+      "title": "Chief Electoral Officer, Chandigarh – official website",
+      "publisher": "Chief Electoral Officer, Chandigarh",
+      "url": "https://ceochandigarh.gov.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-dd": {
+      "title": "Chief Electoral Officer, Dadra & Nagar Haveli and Daman & Diu – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Dadra & Nagar Haveli and Daman & Diu",
+      "url": "https://ceodaman.nic.in/IntensiveSR2002.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-dl": {
+      "title": "Chief Electoral Officer, Delhi (NCT) – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Delhi (NCT)",
+      "url": "https://ceodelhi.gov.in/SIR2026.aspx",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-jk": {
+      "title": "Chief Electoral Officer, Jammu & Kashmir – official website",
+      "publisher": "Chief Electoral Officer, Jammu & Kashmir",
+      "url": "https://ceojk.nic.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-la": {
+      "title": "Chief Electoral Officer, Ladakh – official website",
+      "publisher": "Chief Electoral Officer, Ladakh",
+      "url": "https://ceo.ladakh.gov.in/",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "URL confirmed via search index only; the server refuses connections from outside India"
+    },
+    "ceo-ld": {
+      "title": "Chief Electoral Officer, Lakshadweep – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Lakshadweep",
+      "url": "https://ceolakshadweep.gov.in/Users/sir2026",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "ceo-py": {
+      "title": "Chief Electoral Officer, Puducherry – official website (SIR section)",
+      "publisher": "Chief Electoral Officer, Puducherry",
+      "url": "https://ceopuducherry.py.gov.in/voters2025",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Reached on 9 Sep 2026"
+    },
+    "newsonair-up-revised": {
+      "title": "EC revises schedule for SIR in Uttar Pradesh: draft 6 Jan, claims till 6 Feb, final roll 6 Mar 2026",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/ec-revises-schedule-for-special-intensive-revision-in-uttar-pradesh",
+      "official_date": "2025-12-30",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-delhi-2026-08-04": {
+      "title": "EC revises schedule of ongoing SIR in Delhi: house-to-house till 17 Aug, draft 24 Aug, claims 24 Aug – 23 Sep, final 27 Oct",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/ec-revises-schedule-of-ongoing-sir-in-delhi-till-17th-of-this-month/",
+      "official_date": "2026-08-04",
+      "verified_on": "2026-09-09",
+      "note": "Superseded by the 19 Aug 2026 revision"
+    },
+    "newsonair-delhi-ext-2026-08-19": {
+      "title": "Deadline for Delhi SIR applications extended till 24 Aug; draft 31 Aug, claims till 30 Sep, final roll 4 Nov",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/deadline-for-delhi-sir-applications-extended-till-august-24/",
+      "official_date": "2026-08-19",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-draft-four-2025-12-23": {
+      "title": "EC publishes draft electoral rolls for Chhattisgarh, Madhya Pradesh, Kerala and Andaman & Nicobar under SIR (23 Dec 2025)",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/election-commission-releases-draft-electoral-rolls-for-four-states-uts-under-sir-exercise/",
+      "official_date": "2025-12-23",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-kerala-draft-2025-12-23": {
+      "title": "Election Commission publishes draft voter list in Kerala under SIR; claims and objections till 22 Jan 2026",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/election-commission-publishes-draft-voter-list-in-kerala-under-sir-exercise/",
+      "official_date": "2025-12-23",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-mp-draft-2025-12-23": {
+      "title": "Election Commission publishes draft voter list for Madhya Pradesh following SIR; claims till 22 Jan, final 21 Feb 2026",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/election-commission-publishes-draft-voter-list-for-madhya-pradesh-following-sir-exercise/",
+      "official_date": "2025-12-23",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-five-claims-2026-01-16": {
+      "title": "ECI extends claims and objections in Goa, Lakshadweep, Rajasthan, Puducherry and West Bengal till 19 Jan 2026",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/eci-extends-schedule-for-sir-of-electoral-rolls-in-five-states-uts-till-jan-19/",
+      "official_date": "2026-01-16",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-gujarat-final-2026-02-17": {
+      "title": "Election Commission of India releases final electoral roll for Gujarat (17 Feb 2026)",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/election-commission-of-india-releases-final-electoral-roll-for-gujarat",
+      "official_date": "2026-02-17",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-tn-final-2026-02-23": {
+      "title": "ECI publishes final electoral rolls for Tamil Nadu (23 Feb 2026)",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/eci-publishes-final-electoral-rolls-for-state-of-tamil-nadu/",
+      "official_date": "2026-02-23",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-up-claims-ext-2026-02-06": {
+      "title": "EC extends deadline for claims and objections under SIR in Uttar Pradesh to 6 Mar 2026; final roll 10 Apr 2026",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://www.newsonair.gov.in/ec-extends-deadline-for-filing-claims-objections-under-sir-of-electoral-rolls-in-uttar-pradesh",
+      "official_date": "2026-02-06",
+      "verified_on": "2026-09-09"
+    },
+    "newsonair-telangana-draft-2026-08-17": {
+      "title": "Telangana: Election Commission publishes draft electoral roll (17 Aug 2026); notices till 15 Oct, final 19 Oct (later extended)",
+      "publisher": "Akashvani News (Prasar Bharati)",
+      "url": "https://newsonair.gov.in/telangana-election-commission-publishes-draft-electoral-roll/",
+      "official_date": "2026-08-17",
+      "verified_on": "2026-09-09",
+      "note": "ECI extended the Telangana schedule again on 7 Sep 2026 (claims till 7 Oct, final 9 Nov); link to that press note still to be added"
+    },
+    "ceo-mh-press-2026-08-31": {
+      "title": "CEO Maharashtra press note: SIR draft roll published 31 Aug 2026; claims and objections till 30 Sep; final roll 4 Nov 2026",
+      "publisher": "Chief Electoral Officer, Maharashtra",
+      "url": "https://ceoelection.maharashtra.gov.in/Downloads/PDF/Notification/Press%20Note%20English_31.08.2026%20Draft%20Roll.pdf",
+      "official_date": "2026-08-31",
+      "verified_on": "2026-09-09"
+    },
+    "ceo-tr-helpline": {
+      "title": "CEO Tripura voter helpline page: 1950 (toll-free), 10 AM to 5 PM on working days",
+      "publisher": "Chief Electoral Officer, Tripura",
+      "url": "https://ceotripura.nic.in/voter-helpline",
+      "official_date": null,
+      "verified_on": "2026-09-09"
+    },
+    "ceo-or-schedule": {
+      "title": "CEO Odisha: SIR schedule (PDF on the CEO Odisha media page)",
+      "publisher": "Chief Electoral Officer, Odisha",
+      "url": "https://ceoodisha.nic.in/repo/docs/others/SIR%20Schedule.pdf",
+      "official_date": null,
+      "verified_on": "2026-09-09",
+      "note": "Scanned PDF, so the dates could not be read automatically; open it to confirm the revised schedule (claims till 19 Aug, final roll 21 Sep 2026)"
+    }
+  }
+}

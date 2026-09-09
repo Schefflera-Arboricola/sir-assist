@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
+  <title data-i18n-title="meta.aboutTitle">About &amp; sources – SIR Assist</title>
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231d70b8'/%3E%3Cpath d='M8 16.5l5 5 11-11' fill='none' stroke='%23fff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/process.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="ui.skip">Skip to main content</a>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="./"><span class="mark" aria-hidden="true"></span><span data-i18n="ui.brand">SIR Assist</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="./" data-i18n="nav.home">Check my name</a>
+        <a href="process.html" data-i18n="nav.process">How SIR works</a>
+        <a href="about.html" aria-current="page" data-i18n="nav.about">About &amp; sources</a>
+      </nav>
+      <div class="tools">
+        <label for="lang-picker" class="visually-hidden" data-i18n="ui.language">Language</label>
+        <select id="lang-picker" aria-label="Language"><option value="en">English</option></select>
+        <button id="font-plus" type="button" aria-label="Increase text size" data-i18n-attr="aria-label:ui.textBigger">A+</button>
+        <button id="font-minus" type="button" aria-label="Decrease text size" data-i18n-attr="aria-label:ui.textSmaller">A−</button>
+        <button id="contrast-toggle" type="button" aria-pressed="false" data-i18n="ui.contrast">High contrast</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="card">
+      <h1 data-i18n="about.title">About this guide</h1>
+      <p data-i18n="about.p1">SIR Assist is a free, open-source, AI-generated guide made by one person. It exists because the official information about the Special Intensive Revision is spread across many press notes, PDFs and state websites, and is hard to follow for someone who just wants to know: is my name in the voter list, and what do I do if it is not?</p>
+      <p data-i18n="about.p2">It is **not** an Election Commission of India (ECI) website and it cannot check your name for you. It sends you to the official sites to do that, and then explains the next steps in plain language.</p>
+      <h2 data-i18n="about.rulesTitle">How this site works</h2>
+      <ul>
+        <li data-i18n="about.rule1">**Official sources, in this order.** First choice: the Election Commission of India's own orders and press notes (on eci.gov.in or PIB), a State Chief Electoral Officer (CEO) website, the text of the law, or a court judgment. Second choice, when the ECI page cannot be reached from outside India: the government broadcaster's report of the same announcement (Akashvani News / DD News, run by Prasar Bharati on newsonair.gov.in). Private newspapers are not used as sources. Where a very recent extension is known only from a CEO's announcement reported in the press, the state's note says "press note link still to be added" so you know to confirm it on the CEO website.</li>
+        <li data-i18n="about.rule2">**Source under everything.** Each fact ends with "Source:" and a link to the official page. The date after the source name is the date printed on that page. "checked" is the date the AI last fetched and read that page. If that is more than about six weeks old it is shown in orange so you know to double-check.</li>
+        <li data-i18n="about.rule3">**Link health is checked automatically.** A scheduled job re-fetches every source link, records the HTTP status and the "Last-Modified" header where the server sends one, and stores the result in the site. Where available, that appears as "link checked".</li>
+        <li data-i18n="about.rule4">**Plain language, inclusive design.** Large text, keyboard and screen-reader friendly, dark mode and high-contrast modes, printable checklists, and a structure that makes translations easy to add.</li>
+        <li data-i18n="about.rule5">**No tracking.** No cookies, no analytics, no accounts. Your answers stay in your browser's address bar so you can share or print them.</li>
+      </ul>
+      <h2 data-i18n="about.aiTitle">Made with AI</h2>
+      <p data-i18n="about.ai">Everything on this site, the text, the decision tree and the state data, was written by an AI model (Claude, by Anthropic) working from the official documents linked under each item. No lawyer, election official or editorial team has checked it. AI can make mistakes and dates change often. Treat this site as a signpost to the official pages, not as a replacement for them: always open the "Source" link and confirm the date before you act on a deadline. If you find an error, report it using the link at the bottom of the page.</p>
+      <h2 data-i18n="about.limitsTitle">Limits</h2>
+      <p data-i18n="about.limits">Dates change often; the Election Commission has extended Phase 3 deadlines several times. Some state CEO websites block automated checks, so their "link checked" line may be missing. This site cannot give legal advice; for a rejection or a citizenship-related notice, contact your District Legal Services Authority (free legal aid) or a lawyer.</p>
+    </section>
+
+    <section class="card" id="pending">
+      <h2 data-i18n="about.pendingTitle">Dates that are not yet backed by an official link</h2>
+      <p data-i18n="about.pendingIntro">For the states below, the Election Commission recently extended the schedule, but the ECI's own press note or order could not be reached from where this site is built. The extended dates were announced by the state's Chief Electoral Officer and reported in the press. They are shown because the alternative, showing the old dates, would tell you a window is closed when it is still open. Until the official link is added, treat these as the least certain dates on the site and confirm them on the CEO website.</p>
+      <ul id="pending-list"></ul>
+    </section>
+
+    <section class="card" id="sources">
+      <h2 data-i18n="about.sourcesTitle">All sources used on this site</h2>
+      <p class="help" data-i18n="about.sourcesHelp">Sorted by publisher. Open any link to verify the information yourself.</p>
+      <div id="source-list"></div>
+    </section>
+
+    <section class="card" id="contribute">
+      <h2 data-i18n="about.contribTitle">Report an error, add a language</h2>
+      <p data-i18n="about.contrib1">The whole site is a set of plain text files on GitHub. To fix a date, edit `data/states.json`. To add a language, copy `locales/en.json` to `locales/<code>.json`, translate the strings, and add the language to `locales/index.json`. Untranslated strings automatically fall back to English.</p>
+      <p><a id="repo-link" class="btn secondary" href="#" target="_blank" rel="noopener" data-i18n="about.repo">Open the project on GitHub</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p data-i18n="footer.line1">SIR Assist is a free, AI-generated guide. Its text and data were written by AI (Claude) from official sources. It is a one-person side project, not an Election Commission of India website. Only official sources are used: ECI, PIB, Akashvani News, State CEO websites, the law and court judgments.</p>
+      <p><span data-i18n="footer.updated">Site data last updated:</span> <strong id="site-updated">—</strong> · <a id="footer-repo" href="https://github.com/Schefflera-Arboricola/sir-assist/issues" target="_blank" rel="noopener" data-i18n="footer.contribute">Report an error or contribute a translation</a></p>
+    </div>
+  </footer>
+</body>
+</html>

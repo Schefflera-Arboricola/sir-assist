@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
+  <title data-i18n-title="meta.title">SIR Assist – Is my name on the voter list? What do I do?</title>
+  <meta name="description" data-i18n-attr="content:meta.description" content="Answer a few questions and SIR Assist tells you where to check your name in India's Special Intensive Revision (SIR) voter list, which form to fill, which documents you need, your state's deadline and whom to call. Every fact links to its official source.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#1d70b8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231d70b8'/%3E%3Cpath d='M8 16.5l5 5 11-11' fill='none' stroke='%23fff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="ui.skip">Skip to main content</a>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="./"><span class="mark" aria-hidden="true"></span><span data-i18n="ui.brand">SIR Assist</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="./" aria-current="page" data-i18n="nav.home">Check my name</a>
+        <a href="process.html" data-i18n="nav.process">How SIR works</a>
+        <a href="about.html" data-i18n="nav.about">About &amp; sources</a>
+      </nav>
+      <div class="tools">
+        <label for="lang-picker" class="visually-hidden" data-i18n="ui.language">Language</label>
+        <select id="lang-picker" aria-label="Language"><option value="en">English</option></select>
+        <button id="font-plus" type="button" aria-label="Increase text size" data-i18n-attr="aria-label:ui.textBigger">A+</button>
+        <button id="font-minus" type="button" aria-label="Decrease text size" data-i18n-attr="aria-label:ui.textSmaller">A−</button>
+        <button id="contrast-toggle" type="button" aria-pressed="false" data-i18n="ui.contrast">High contrast</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <noscript>
+      <div class="banner warn">
+        <p data-i18n="ui.noscript">This guide needs JavaScript. Without it: search your name at https://electoralsearch.eci.gov.in/ , fill forms at https://voters.eci.gov.in/ , or call 1950 with your STD code.</p>
+      </div>
+    </noscript>
+    <div id="wizard" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p data-i18n="footer.line1">SIR Assist is a free, AI-generated guide. Its text and data were written by AI (Claude) from official sources. It is a one-person side project, not an Election Commission of India website. Only official sources are used: ECI, PIB, Akashvani News, State CEO websites, the law and court judgments.</p>
+      <p><span data-i18n="footer.updated">Site data last updated:</span> <strong id="site-updated">—</strong> · <a id="footer-repo" href="https://github.com/Schefflera-Arboricola/sir-assist/issues" target="_blank" rel="noopener" data-i18n="footer.contribute">Report an error or contribute a translation</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1163 @@
+{
+  "generated": "2026-09-09",
+  "states": [
+    {
+      "code": "AP",
+      "type": "state",
+      "eci_code": "S01",
+      "ceo_url": "https://ceoandhra.nic.in/",
+      "ceo_sir_url": "https://ceoaperolls.ap.gov.in/SIR2002/DistrictDashboard",
+      "ceo_sources": [
+        "ceo-ap"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-06-15",
+        "enumeration_end": "2026-07-24",
+        "draft_published": "2026-07-31",
+        "claims_start": "2026-07-31",
+        "claims_end": "2026-08-30",
+        "final_roll_date": "2026-10-03",
+        "sources": [
+          "pib-phase3-order",
+          "newsonair-haryana-ap-2026-07-14"
+        ],
+        "note": "BLO visits were extended to 24 Jul 2026; draft 31 Jul, claims 31 Jul – 30 Aug, final roll 3 Oct 2026 (Akashvani, 14 Jul 2026).",
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "code": "AR",
+      "type": "state",
+      "eci_code": "S02",
+      "ceo_url": "https://ceoarunachal.nic.in/",
+      "ceo_sir_url": "https://ceoarunachal.nic.in/sir-2026",
+      "ceo_sources": [
+        "ceo-ar"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-06-15",
+        "enumeration_end": "2026-07-14",
+        "draft_published": "2026-07-21",
+        "claims_start": "2026-07-21",
+        "claims_end": "2026-08-20",
+        "final_roll_date": "2026-09-22",
+        "sources": [
+          "pib-phase3-order",
+          "newsonair-punjab-haryana-2026-05-14"
+        ],
+        "last_sir_year": 2006
+      },
+      "helplines": [
+        {
+          "number": "1800-345-3170",
+          "note": "toll-free, CEO Arunachal website"
+        },
+        {
+          "number": "0360-1950",
+          "note": ""
+        }
+      ],
+      "helpline_sources": [
+        "ceo-ar"
+      ],
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    {
+      "code": "AS",
+      "type": "state",
+      "eci_code": "S03",
+      "ceo_url": "https://ceoassam.nic.in/",
+      "ceo_sir_url": "https://ceoassam.nic.in/summary/special-revision-2026.html",
+      "ceo_sources": [
+        "ceo-as"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": null,
+        "status": "special_revision",
+        "qualifying_date": "2026-01-01",
+        "draft_published": "2025-12-27",
+        "claims_start": "2025-12-27",
+        "claims_end": "2026-01-22",
+        "final_roll_date": "2026-02-10",
+        "final_published": true,
+        "sources": [
+          "newsonair-assam-sr-order",
+          "newsonair-assam-final",
+          "pib-phase3-order"
+        ],
+        "note": "Special Revision, not SIR. ECI: SIR in Assam after the assembly elections; no schedule yet.",
+        "last_sir_year": 2005
+      }
+    },
+    {
+      "code": "BR",
+      "type": "state",
+      "eci_code": "S04",
+      "ceo_url": "https://ceoelection.bihar.gov.in/",
+      "ceo_sir_url": "https://ceoelection.bihar.gov.in/",
+      "ceo_sources": [
+        "ceo-br"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 1,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2025-07-01",
+        "enumeration_start": "2025-06-25",
+        "enumeration_end": "2025-07-25",
+        "draft_published": "2025-08-01",
+        "claims_start": "2025-08-01",
+        "claims_end": "2025-09-01",
+        "final_roll_date": "2025-09-30",
+        "sources": [
+          "pib-bihar-draft",
+          "pib-bihar-final"
+        ],
+        "last_sir_year": 2003
+      },
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    {
+      "code": "CG",
+      "type": "state",
+      "eci_code": "S26",
+      "ceo_url": "https://ceochhattisgarh.nic.in/",
+      "ceo_sir_url": "https://ceochhattisgarh.nic.in/both/SIR.html",
+      "ceo_sources": [
+        "ceo-cg"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-18",
+        "draft_published": "2025-12-23",
+        "claims_start": "2025-12-23",
+        "claims_end": "2026-01-22",
+        "final_roll_date": "2026-02-21",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "pib-phase2-revised-6",
+          "newsonair-chhattisgarh-final",
+          "newsonair-draft-four-2025-12-23"
+        ],
+        "note": "Enumeration extended to 18 Dec, draft 23 Dec 2025 (ECI, 11 Dec 2025). Final roll published 21 Feb 2026.",
+        "last_sir_year": 2003
+      },
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    {
+      "code": "GA",
+      "type": "state",
+      "eci_code": "S05",
+      "ceo_url": "https://ceogoa.nic.in/",
+      "ceo_sir_url": "https://ceogoa.nic.in/appln/UIL/SIR2026.aspx",
+      "ceo_sources": [
+        "ceo-ga"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-11",
+        "draft_published": "2025-12-16",
+        "claims_start": "2025-12-16",
+        "claims_end": "2026-01-19",
+        "final_roll_date": "2026-02-14",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "newsonair-wb-extended",
+          "newsonair-five-claims-2026-01-16"
+        ],
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "code": "GJ",
+      "type": "state",
+      "eci_code": "S06",
+      "ceo_url": "https://ceo.gujarat.gov.in/",
+      "ceo_sir_url": null,
+      "ceo_sources": [
+        "ceo-gj"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-14",
+        "draft_published": "2025-12-19",
+        "claims_start": "2025-12-19",
+        "claims_end": "2026-01-18",
+        "final_roll_date": "2026-02-17",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "pib-phase2-revised-6",
+          "newsonair-gujarat-final-2026-02-17"
+        ],
+        "note": "Enumeration extended to 14 Dec, draft 19 Dec 2025 (ECI, 11 Dec 2025). Final roll published 17 Feb 2026.",
+        "last_sir_year": 2002
+      }
+    },
+    {
+      "code": "HR",
+      "type": "state",
+      "eci_code": "S07",
+      "ceo_url": "https://ceoharyana.gov.in/",
+      "ceo_sir_url": "https://ceoharyana.gov.in/WebCMS/Start/1985",
+      "ceo_sources": [
+        "ceo-hr"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-06-15",
+        "enumeration_end": "2026-07-24",
+        "draft_published": "2026-07-31",
+        "claims_start": "2026-07-31",
+        "claims_end": "2026-08-30",
+        "final_roll_date": "2026-10-03",
+        "sources": [
+          "pib-phase3-order",
+          "newsonair-haryana-ap-2026-07-14"
+        ],
+        "note": "BLO visits were extended to 24 Jul 2026; draft 31 Jul, claims 31 Jul – 30 Aug, final roll 3 Oct 2026 (Akashvani, 14 Jul 2026).",
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    {
+      "code": "HP",
+      "type": "state",
+      "eci_code": "S08",
+      "ceo_url": "https://ceohimachal.hp.gov.in/",
+      "ceo_sir_url": null,
+      "ceo_sources": [
+        "ceo-hp"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": null,
+        "status": "not_scheduled",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2002
+      }
+    },
+    {
+      "code": "JH",
+      "type": "state",
+      "eci_code": "S27",
+      "ceo_url": "https://ceo.jharkhand.gov.in/",
+      "ceo_sir_url": "https://ceo.jharkhand.gov.in/SIRASD2026/SIRJharkhand.aspx",
+      "ceo_sources": [
+        "ceo-jh"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-06-30",
+        "enumeration_end": "2026-07-29",
+        "draft_published": "2026-08-05",
+        "claims_start": "2026-08-05",
+        "claims_end": "2026-09-15",
+        "final_roll_date": "2026-10-19",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2003,
+        "note": "ECI extended claims and objections to 15 Sep and the final roll to 19 Oct 2026 (announced by CEO Jharkhand, 4 Sep 2026; press note link still to be added). Confirm on the CEO Jharkhand website.",
+        "pending_official_link": true
+      }
+    },
+    {
+      "code": "KA",
+      "type": "state",
+      "eci_code": "S10",
+      "ceo_url": "https://ceo.karnataka.gov.in/en",
+      "ceo_sir_url": "https://ceo.karnataka.gov.in/en",
+      "ceo_sources": [
+        "ceo-ka"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-06-30",
+        "enumeration_end": "2026-08-08",
+        "draft_published": "2026-08-24",
+        "claims_start": "2026-08-24",
+        "claims_end": "2026-09-23",
+        "final_roll_date": "2026-10-27",
+        "sources": [
+          "pib-phase3-order",
+          "newsonair-extension-2026-07-15",
+          "ceo-ka"
+        ],
+        "note": "Draft published 24 Aug 2026; claims till 23 Sep; final 27 Oct (CEO Karnataka website). The 15 Jul press note had 17 Aug / 19 Oct.",
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English",
+        "Kannada"
+      ]
+    },
+    {
+      "code": "KL",
+      "type": "state",
+      "eci_code": "S11",
+      "ceo_url": "https://www.ceo.kerala.gov.in/",
+      "ceo_sir_url": "https://www.ceo.kerala.gov.in/sir",
+      "ceo_sources": [
+        "ceo-kl"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-18",
+        "draft_published": "2025-12-23",
+        "claims_start": "2025-12-23",
+        "claims_end": "2026-01-22",
+        "final_roll_date": "2026-02-21",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "pib-phase2-revised-6",
+          "newsonair-draft-four-2025-12-23",
+          "newsonair-kerala-draft-2025-12-23"
+        ],
+        "note": "Extended by a week because of local body elections: enumeration to 18 Dec, draft 23 Dec 2025, claims till 22 Jan, final roll 21 Feb 2026.",
+        "last_sir_year": 2002
+      },
+      "helplines": [
+        {
+          "number": "+91 471 2300121",
+          "note": "CEO Kerala office"
+        }
+      ],
+      "helpline_sources": [
+        "ceo-kl"
+      ],
+      "languages": [
+        "English",
+        "Malayalam"
+      ]
+    },
+    {
+      "code": "MP",
+      "type": "state",
+      "eci_code": "S12",
+      "ceo_url": "https://ceoelection.mp.gov.in/",
+      "ceo_sir_url": "https://ceoelection.mp.gov.in/SIR2003.aspx",
+      "ceo_sources": [
+        "ceo-mp"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-18",
+        "draft_published": "2025-12-23",
+        "claims_start": "2025-12-23",
+        "claims_end": "2026-01-22",
+        "final_roll_date": "2026-02-21",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "pib-phase2-revised-6",
+          "newsonair-draft-four-2025-12-23",
+          "newsonair-mp-draft-2025-12-23"
+        ],
+        "note": "Enumeration extended to 18 Dec, draft 23 Dec 2025; claims till 22 Jan, final roll 21 Feb 2026.",
+        "last_sir_year": 2003
+      }
+    },
+    {
+      "code": "MH",
+      "type": "state",
+      "eci_code": "S13",
+      "ceo_url": "https://ceoelection.maharashtra.gov.in/ceo/",
+      "ceo_sir_url": "https://ceoelection.maharashtra.gov.in/ceo/ElectorRoll.aspx",
+      "ceo_sources": [
+        "ceo-mh"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-06-30",
+        "enumeration_end": "2026-08-08",
+        "draft_published": "2026-08-31",
+        "claims_start": "2026-08-31",
+        "claims_end": "2026-09-30",
+        "final_roll_date": "2026-11-04",
+        "sources": [
+          "pib-phase3-order",
+          "ceo-mh-press-2026-08-31"
+        ],
+        "note": "Revised schedule of 19 Aug 2026: draft 31 Aug, claims and objections till 30 Sep, final roll 4 Nov 2026 (CEO Maharashtra press note, 31 Aug 2026).",
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "Marathi",
+        "English"
+      ]
+    },
+    {
+      "code": "MN",
+      "type": "state",
+      "eci_code": "S14",
+      "ceo_url": "https://ceomanipur.nic.in/",
+      "ceo_sir_url": "https://ceomanipur.nic.in/sir.aspx",
+      "ceo_sources": [
+        "ceo-mn"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-05-30",
+        "enumeration_end": "2026-06-28",
+        "draft_published": "2026-07-05",
+        "claims_start": "2026-07-05",
+        "claims_end": "2026-08-04",
+        "final_roll_date": "2026-09-06",
+        "sources": [
+          "pib-phase3-order",
+          "pib-phase3-enum-start"
+        ],
+        "final_published": true,
+        "note": "Final roll published; see the CEO Manipur SIR page (press notes).",
+        "last_sir_year": 2005
+      },
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "code": "ML",
+      "type": "state",
+      "eci_code": "S15",
+      "ceo_url": "https://ceomeghalaya.nic.in/",
+      "ceo_sir_url": "https://ceomeghalaya.nic.in/erolls/asdd/asdd.html",
+      "ceo_sources": [
+        "ceo-ml"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-06-30",
+        "enumeration_end": "2026-07-29",
+        "draft_published": "2026-08-05",
+        "claims_start": "2026-08-05",
+        "claims_end": "2026-09-18",
+        "final_roll_date": "2026-10-21",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2005,
+        "note": "Schedule extended by 14 days after hearings in Shillong were disrupted: claims till 18 Sep, disposal till 17 Oct, final roll 21 Oct 2026 (CEO Meghalaya, 2 Sep 2026; press note link still to be added). Confirm on the CEO Meghalaya website.",
+        "pending_official_link": true
+      }
+    },
+    {
+      "code": "MZ",
+      "type": "state",
+      "eci_code": "S16",
+      "ceo_url": "https://ceo.mizoram.gov.in/",
+      "ceo_sir_url": "https://ceo.mizoram.gov.in/",
+      "ceo_sources": [
+        "ceo-mz"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-05-30",
+        "enumeration_end": "2026-06-28",
+        "draft_published": "2026-07-05",
+        "claims_start": "2026-07-05",
+        "claims_end": "2026-08-04",
+        "final_roll_date": "2026-09-07",
+        "sources": [
+          "pib-phase3-order",
+          "pib-phase3-enum-start"
+        ],
+        "final_published": true,
+        "note": "Final roll published on the CEO Mizoram website (SIR 2026 section).",
+        "last_sir_year": 2005
+      },
+      "helplines": [
+        {
+          "number": "1800-334-1950",
+          "note": "state contact centre, CEO Mizoram website"
+        }
+      ],
+      "helpline_sources": [
+        "ceo-mz"
+      ],
+      "languages": [
+        "English",
+        "Mizo"
+      ]
+    },
+    {
+      "code": "NL",
+      "type": "state",
+      "eci_code": "S17",
+      "ceo_url": "https://ceo.nagaland.gov.in/",
+      "ceo_sir_url": "https://ceo.nagaland.gov.in/sir_2026",
+      "ceo_sources": [
+        "ceo-nl"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-08-16",
+        "enumeration_end": "2026-09-14",
+        "draft_published": "2026-09-20",
+        "claims_start": "2026-09-20",
+        "claims_end": "2026-10-20",
+        "final_roll_date": "2026-11-22",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2005
+      },
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "code": "OR",
+      "type": "state",
+      "eci_code": "S18",
+      "ceo_url": "https://ceoodisha.nic.in/en/",
+      "ceo_sir_url": null,
+      "ceo_sources": [
+        "ceo-or"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-05-30",
+        "enumeration_end": "2026-06-28",
+        "draft_published": "2026-07-05",
+        "claims_start": "2026-07-05",
+        "claims_end": "2026-08-19",
+        "final_roll_date": "2026-09-21",
+        "sources": [
+          "pib-phase3-order",
+          "pib-phase3-enum-start",
+          "ceo-or-schedule"
+        ],
+        "note": "ECI notification of 31 Jul 2026 extended claims and objections to 19 Aug and the final roll to 21 Sep 2026 (reported by CEO Odisha; ECI press note link still to be added). Confirm on the CEO Odisha website.",
+        "last_sir_year": 2002,
+        "pending_official_link": true
+      }
+    },
+    {
+      "code": "PB",
+      "type": "state",
+      "eci_code": "S19",
+      "ceo_url": "https://www.ceopunjab.gov.in/",
+      "ceo_sir_url": null,
+      "ceo_sources": [
+        "ceo-pb"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-06-25",
+        "enumeration_end": "2026-08-03",
+        "draft_published": "2026-08-13",
+        "claims_start": "2026-08-13",
+        "claims_end": "2026-09-12",
+        "final_roll_date": "2026-10-12",
+        "sources": [
+          "pib-phase3-order",
+          "newsonair-extension-2026-07-15"
+        ],
+        "last_sir_year": 2003
+      }
+    },
+    {
+      "code": "RJ",
+      "type": "state",
+      "eci_code": "S20",
+      "ceo_url": "https://election.rajasthan.gov.in/",
+      "ceo_sir_url": "https://election.rajasthan.gov.in/",
+      "ceo_sources": [
+        "ceo-rj"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-11",
+        "draft_published": "2025-12-16",
+        "claims_start": "2025-12-16",
+        "claims_end": "2026-01-19",
+        "final_roll_date": "2026-02-14",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "newsonair-wb-extended",
+          "newsonair-five-claims-2026-01-16"
+        ],
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    {
+      "code": "SK",
+      "type": "state",
+      "eci_code": "S21",
+      "ceo_url": "https://ceo.sikkim.gov.in/",
+      "ceo_sir_url": "https://ceo.sikkim.gov.in/SIRElectoral/SIRElectoralGeneral",
+      "ceo_sources": [
+        "ceo-sk"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-05-30",
+        "enumeration_end": "2026-06-28",
+        "draft_published": "2026-07-05",
+        "claims_start": "2026-07-05",
+        "claims_end": "2026-08-04",
+        "final_roll_date": "2026-09-06",
+        "sources": [
+          "pib-phase3-order",
+          "pib-phase3-enum-start"
+        ],
+        "final_published": true,
+        "note": "Final roll published; see the CEO Sikkim SIR page.",
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "code": "TN",
+      "type": "state",
+      "eci_code": "S22",
+      "ceo_url": "https://www.elections.tn.gov.in/",
+      "ceo_sir_url": "https://www.elections.tn.gov.in/SIR_2026.aspx",
+      "ceo_sources": [
+        "ceo-tn"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-14",
+        "draft_published": "2025-12-19",
+        "claims_start": "2025-12-19",
+        "claims_end": "2026-01-18",
+        "final_roll_date": "2026-02-23",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "pib-phase2-revised-6",
+          "newsonair-tn-final-2026-02-23"
+        ],
+        "note": "Enumeration extended to 14 Dec, draft 19 Dec 2025 (ECI, 11 Dec 2025). Final roll published 23 Feb 2026.",
+        "last_sir_year": "2002 (197 ACs) / 2005 (37 ACs)"
+      }
+    },
+    {
+      "code": "TS",
+      "type": "state",
+      "eci_code": "S29",
+      "ceo_url": "https://ceotelangana.nic.in/",
+      "ceo_sir_url": "https://ceotelangana.nic.in/SIR_2026.html",
+      "ceo_sources": [
+        "ceo-ts"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-06-25",
+        "enumeration_end": "2026-08-03",
+        "draft_published": "2026-08-17",
+        "claims_start": "2026-08-17",
+        "claims_end": "2026-10-07",
+        "final_roll_date": "2026-11-09",
+        "sources": [
+          "pib-phase3-order",
+          "newsonair-extension-2026-07-15",
+          "newsonair-telangana-draft-2026-08-17"
+        ],
+        "note": "Draft published 17 Aug 2026 (Akashvani). On 7 Sep 2026 the ECI extended claims and objections to 7 Oct and the final roll to 9 Nov (announced by CEO Telangana / DEO Hyderabad; press note link still to be added). Confirm on the CEO Telangana website.",
+        "last_sir_year": 2002,
+        "pending_official_link": true
+      }
+    },
+    {
+      "code": "TR",
+      "type": "state",
+      "eci_code": "S23",
+      "ceo_url": "https://ceotripura.nic.in/",
+      "ceo_sir_url": null,
+      "ceo_sources": [
+        "ceo-tr"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-11-06",
+        "enumeration_end": "2026-12-05",
+        "draft_published": "2026-12-12",
+        "claims_start": "2026-12-12",
+        "claims_end": "2027-01-10",
+        "final_roll_date": "2027-02-15",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2005,
+        "note": "Deferred at the request of CEO Tripura because of the TTAADC village committee elections: BLO visits 6 Nov – 5 Dec 2026, draft 12 Dec, claims 12 Dec 2026 – 10 Jan 2027, final roll 15 Feb 2027 (reported 6 Sep 2026; ECI order link still to be added). The 14 May schedule had 15 Sep – 14 Oct / 23 Dec.",
+        "pending_official_link": true
+      },
+      "helplines": [
+        {
+          "number": "1950",
+          "note": "toll-free, 10 AM to 5 PM on working days (CEO Tripura)"
+        }
+      ],
+      "helpline_sources": [
+        "ceo-tr-helpline"
+      ]
+    },
+    {
+      "code": "UP",
+      "type": "state",
+      "eci_code": "S24",
+      "ceo_url": "https://ceouttarpradesh.nic.in/",
+      "ceo_sir_url": "https://ceouttarpradesh.nic.in/ASD_SIR2026.aspx",
+      "ceo_sources": [
+        "ceo-up"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-26",
+        "draft_published": "2026-01-06",
+        "claims_start": "2026-01-06",
+        "claims_end": "2026-03-06",
+        "final_roll_date": "2026-04-10",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "newsonair-wb-extended",
+          "newsonair-up-revised",
+          "newsonair-up-claims-ext-2026-02-06"
+        ],
+        "note": "Draft 6 Jan 2026; claims and objections were extended by a month to 6 Mar 2026 and the final roll to 10 Apr 2026 (Akashvani, 6 Feb 2026).",
+        "last_sir_year": 2003
+      }
+    },
+    {
+      "code": "UK",
+      "type": "state",
+      "eci_code": "S28",
+      "ceo_url": "https://ceo.uk.gov.in/",
+      "ceo_sir_url": "https://ceo.uk.gov.in/sir-2026/",
+      "ceo_sources": [
+        "ceo-uk"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-06-08",
+        "enumeration_end": "2026-07-07",
+        "draft_published": "2026-07-14",
+        "claims_start": "2026-07-14",
+        "claims_end": "2026-08-13",
+        "final_roll_date": "2026-10-03",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2003,
+        "note": "Final roll moved from 15 Sep to 3 Oct 2026; notices and hearings continue till 28 Sep (CEO Uttarakhand, 8 Sep 2026; press note link still to be added). Claims and objections closed on 13 Aug.",
+        "pending_official_link": true
+      },
+      "helplines": [
+        {
+          "number": "1800-3300-1950",
+          "note": "toll-free, CEO Uttarakhand website"
+        },
+        {
+          "number": "0135-2713552",
+          "note": "CEO office"
+        }
+      ],
+      "helpline_sources": [
+        "ceo-uk"
+      ],
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    {
+      "code": "WB",
+      "type": "state",
+      "eci_code": "S25",
+      "ceo_url": "https://ceowestbengal.wb.gov.in/",
+      "ceo_sir_url": "https://ceowestbengal.wb.gov.in/SIR",
+      "ceo_sources": [
+        "ceo-wb"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-11",
+        "draft_published": "2025-12-16",
+        "claims_start": "2025-12-16",
+        "claims_end": "2026-01-19",
+        "final_roll_date": "2026-02-28",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "newsonair-wb-extended",
+          "newsonair-five-claims-2026-01-16"
+        ],
+        "note": "Claims extended to 19 Jan 2026; final roll date extended to 28 Feb 2026 following the Supreme Court's order.",
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English",
+        "Bengali"
+      ]
+    },
+    {
+      "code": "AN",
+      "type": "ut",
+      "eci_code": "U01",
+      "ceo_url": "https://www.ceoandaman.nic.in/",
+      "ceo_sir_url": "https://www.ceoandaman.nic.in/election/E-ROLL-2002/default.htm",
+      "ceo_sources": [
+        "ceo-an"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-18",
+        "draft_published": "2025-12-23",
+        "claims_start": "2025-12-23",
+        "claims_end": "2026-01-22",
+        "final_roll_date": "2026-02-21",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "pib-phase2-revised-6",
+          "newsonair-draft-four-2025-12-23"
+        ],
+        "note": "Enumeration extended to 18 Dec, draft 23 Dec 2025; claims till 22 Jan, final roll 21 Feb 2026 (CEO A&N).",
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    {
+      "code": "CH",
+      "type": "ut",
+      "eci_code": "U02",
+      "ceo_url": "https://ceochandigarh.gov.in/",
+      "ceo_sir_url": null,
+      "ceo_sources": [
+        "ceo-ch"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-06-15",
+        "enumeration_end": "2026-07-14",
+        "draft_published": "2026-07-21",
+        "claims_start": "2026-07-21",
+        "claims_end": "2026-08-20",
+        "final_roll_date": "2026-09-22",
+        "sources": [
+          "pib-phase3-order",
+          "newsonair-punjab-haryana-2026-05-14"
+        ],
+        "last_sir_year": 2002
+      }
+    },
+    {
+      "code": "DD",
+      "type": "ut",
+      "eci_code": "U03",
+      "ceo_url": "https://ceodaman.nic.in/",
+      "ceo_sir_url": "https://ceodaman.nic.in/IntensiveSR2002.aspx",
+      "ceo_sources": [
+        "ceo-dd"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-07-01",
+        "enumeration_start": "2026-06-04",
+        "enumeration_end": "2026-07-03",
+        "draft_published": "2026-07-10",
+        "claims_start": "2026-07-10",
+        "claims_end": "2026-08-09",
+        "final_roll_date": "2026-09-11",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English",
+        "Hindi",
+        "Gujarati"
+      ]
+    },
+    {
+      "code": "DL",
+      "type": "ut",
+      "eci_code": "U05",
+      "ceo_url": "https://ceodelhi.gov.in/",
+      "ceo_sir_url": "https://ceodelhi.gov.in/SIR2026.aspx",
+      "ceo_sources": [
+        "ceo-dl"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": 3,
+        "status": "in_progress",
+        "qualifying_date": "2026-10-01",
+        "enumeration_start": "2026-06-30",
+        "enumeration_end": "2026-08-24",
+        "draft_published": "2026-08-31",
+        "claims_start": "2026-08-31",
+        "claims_end": "2026-09-30",
+        "final_roll_date": "2026-11-04",
+        "sources": [
+          "pib-phase3-order",
+          "newsonair-extension-2026-07-15",
+          "newsonair-delhi-draft",
+          "newsonair-delhi-2026-08-04",
+          "newsonair-delhi-ext-2026-08-19"
+        ],
+        "last_sir_year": 2002,
+        "note": "Enumeration was extended to 17 Aug and then 24 Aug 2026. Draft 31 Aug, claims till 30 Sep, final roll 4 Nov 2026 (Akashvani, 19 and 31 Aug 2026)."
+      }
+    },
+    {
+      "code": "JK",
+      "type": "ut",
+      "eci_code": "U08",
+      "ceo_url": "https://ceojk.nic.in/",
+      "ceo_sir_url": null,
+      "ceo_sources": [
+        "ceo-jk"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": null,
+        "status": "not_scheduled",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2005
+      }
+    },
+    {
+      "code": "LA",
+      "type": "ut",
+      "eci_code": "U09",
+      "ceo_url": "https://ceo.ladakh.gov.in/",
+      "ceo_sir_url": null,
+      "ceo_sources": [
+        "ceo-la"
+      ],
+      "ceo_reachable": false,
+      "sir": {
+        "phase": null,
+        "status": "not_scheduled",
+        "sources": [
+          "pib-phase3-order"
+        ],
+        "last_sir_year": 2005
+      }
+    },
+    {
+      "code": "LD",
+      "type": "ut",
+      "eci_code": "U06",
+      "ceo_url": "https://ceolakshadweep.gov.in/",
+      "ceo_sir_url": "https://ceolakshadweep.gov.in/Users/sir2026",
+      "ceo_sources": [
+        "ceo-ld"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-11",
+        "draft_published": "2025-12-16",
+        "claims_start": "2025-12-16",
+        "claims_end": "2026-01-19",
+        "final_roll_date": "2026-02-14",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "newsonair-wb-extended",
+          "newsonair-five-claims-2026-01-16"
+        ],
+        "last_sir_year": 2002
+      },
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "code": "PY",
+      "type": "ut",
+      "eci_code": "U07",
+      "ceo_url": "https://ceopuducherry.py.gov.in/",
+      "ceo_sir_url": "https://ceopuducherry.py.gov.in/voters2025",
+      "ceo_sources": [
+        "ceo-py"
+      ],
+      "ceo_reachable": true,
+      "sir": {
+        "phase": 2,
+        "status": "final_published",
+        "final_published": true,
+        "qualifying_date": "2026-01-01",
+        "enumeration_start": "2025-11-04",
+        "enumeration_end": "2025-12-11",
+        "draft_published": "2025-12-16",
+        "claims_start": "2025-12-16",
+        "claims_end": "2026-01-19",
+        "final_roll_date": "2026-02-14",
+        "sources": [
+          "eci-phase2-order",
+          "pib-phase2-revised",
+          "newsonair-wb-extended",
+          "newsonair-five-claims-2026-01-16"
+        ],
+        "last_sir_year": 2002
+      },
+      "helplines": [
+        {
+          "number": "+91 9488111950",
+          "note": "WhatsApp, CEO Puducherry website"
+        }
+      ],
+      "helpline_sources": [
+        "ceo-py"
+      ],
+      "languages": [
+        "English",
+        "Tamil"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "repo_url": "https://github.com/Schefflera-Arboricola/sir-assist",
+  "links": {
+    "electoral_search": {
+      "url": "https://electoralsearch.eci.gov.in/",
+      "sources": [
+        "eci-electoral-search"
+      ]
+    },
+    "voters_portal": {
+      "url": "https://voters.eci.gov.in/",
+      "sources": [
+        "eci-voters-portal"
+      ]
+    },
+    "search_last_sir": {
+      "url": "https://voters.eci.gov.in/searchInSIR/",
+      "sources": [
+        "eci-voters-portal",
+        "eci-phase2-order"
+      ]
+    },
+    "enum_form_track": {
+      "url": "https://voters.eci.gov.in/enumFormTrack",
+      "sources": [
+        "eci-voters-portal"
+      ]
+    },
+    "track_status": {
+      "url": "https://voters.eci.gov.in/home/track",
+      "sources": [
+        "eci-voters-portal"
+      ]
+    },
+    "sir_draft_roll_download": {
+      "url": "https://voters.eci.gov.in/download-sir-draft-roll?stateCode={stateCode}",
+      "sources": [
+        "eci-voters-portal"
+      ]
+    },
+    "eroll_download": {
+      "url": "https://voters.eci.gov.in/download-eroll?stateCode={stateCode}",
+      "sources": [
+        "eci-voters-portal",
+        "pib-bihar-draft"
+      ]
+    },
+    "ecinet": {
+      "url": "https://ecinet.eci.gov.in/",
+      "sources": [
+        "eci-ecinet",
+        "pib-ecinet-launch"
+      ]
+    },
+    "ecinet_android": {
+      "url": "https://play.google.com/store/apps/details?id=in.gov.eci.app",
+      "sources": [
+        "eci-ecinet"
+      ]
+    },
+    "ecinet_ios": {
+      "url": "https://apps.apple.com/in/app/id6745955212",
+      "sources": [
+        "eci-ecinet"
+      ]
+    },
+    "eci_home": {
+      "url": "https://www.eci.gov.in/",
+      "sources": []
+    },
+    "eci_sir": {
+      "url": "https://www.eci.gov.in/electoral-roll",
+      "sources": []
+    },
+    "ecinet_forms": {
+      "url": "https://ecinet.eci.gov.in/homepage/home/voterRegistrationForms",
+      "sources": [
+        "eci-ecinet",
+        "pib-ecinet-launch"
+      ]
+    },
+    "forms_pdf": {
+      "url": "https://www.eci.gov.in/download-forms",
+      "sources": [
+        "eci-voters-portal"
+      ]
+    },
+    "form6a_guide": {
+      "url": "https://voters.eci.gov.in/guidelines/Form-6a_en.pdf",
+      "sources": [
+        "eci-voters-portal"
+      ]
+    },
+    "book_blo": {
+      "url": "https://voters.eci.gov.in/home/bookACallRequest",
+      "sources": [
+        "eci-voters-portal"
+      ]
+    }
+  },
+  "forms": {
+    "ef": {
+      "online_url": "https://voters.eci.gov.in/",
+      "pdf_url": "https://www.ceoandaman.nic.in/election/AnnounceContent/Enumeration%20Form.pdf",
+      "sources": [
+        "eci-phase2-order",
+        "ceo-andaman-enum-form",
+        "pib-phase3-enum-start"
+      ]
+    },
+    "form6": {
+      "online_url": "https://voters.eci.gov.in/form6",
+      "sources": [
+        "rer-1960",
+        "pib-phase3-enum-start",
+        "eci-phase2-order"
+      ],
+      "pdf_url": "https://www.eci.gov.in/download-forms"
+    },
+    "form6a": {
+      "online_url": "https://voters.eci.gov.in/form6a",
+      "sources": [
+        "rer-1960"
+      ],
+      "pdf_url": "https://www.eci.gov.in/download-forms"
+    },
+    "form7": {
+      "online_url": "https://voters.eci.gov.in/form7",
+      "sources": [
+        "rer-1960",
+        "pib-safeguards-2026-07-25"
+      ],
+      "pdf_url": "https://www.eci.gov.in/download-forms"
+    },
+    "form8": {
+      "online_url": "https://voters.eci.gov.in/form8",
+      "sources": [
+        "rer-1960",
+        "pib-forms-2022",
+        "eci-phase2-order"
+      ],
+      "pdf_url": "https://voters.eci.gov.in/formspdf/Form_8_English.pdf"
+    }
+  },
+  "documents": [
+    "d1",
+    "d2",
+    "d3",
+    "d4",
+    "d5",
+    "d6",
+    "d7",
+    "d8",
+    "d9",
+    "d10",
+    "d11",
+    "d12",
+    "d13"
+  ],
+  "faq": [
+    {
+      "id": "what",
+      "sources": [
+        "pib-phase3-enum-start",
+        "pib-safeguards-2026-07-25"
+      ]
+    },
+    {
+      "id": "why2002",
+      "sources": [
+        "eci-phase2-order",
+        "sc-judgment-2026-05-27"
+      ]
+    },
+    {
+      "id": "freeze",
+      "sources": [
+        "eci-phase2-order",
+        "pib-phase3-enum-start",
+        "rer-1960",
+        "rpa-1950"
+      ]
+    },
+    {
+      "id": "docs",
+      "sources": [
+        "ceo-andaman-enum-form",
+        "eci-phase2-order"
+      ]
+    },
+    {
+      "id": "aadhaar",
+      "sources": [
+        "sc-judgment-2026-05-27",
+        "newsonair-aadhaar-sc"
+      ]
+    },
+    {
+      "id": "deleted",
+      "sources": [
+        "pib-safeguards-2026-07-25",
+        "pib-bihar-draft",
+        "rer-1960"
+      ]
+    },
+    {
+      "id": "citizenship",
+      "sources": [
+        "sc-judgment-2026-05-27"
+      ]
+    },
+    {
+      "id": "next",
+      "sources": [
+        "eci-phase2-order",
+        "pib-phase3-order"
+      ]
+    },
+    {
+      "id": "where",
+      "sources": [
+        "eci-voters-portal",
+        "pib-helplines",
+        "pib-ecinet-launch"
+      ]
+    },
+    {
+      "id": "assam",
+      "sources": [
+        "newsonair-assam-sr-order",
+        "newsonair-assam-final",
+        "pib-phase3-order"
+      ]
+    }
+  ]
+}

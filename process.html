@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'">
+  <title data-i18n-title="meta.processTitle">How SIR works – SIR Assist</title>
+  <meta name="description" data-i18n-attr="content:meta.processDescription" content="A visual, step-by-step explanation of India's Special Intensive Revision (SIR) of electoral rolls, with phase-wise timelines for every state and union territory.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231d70b8'/%3E%3Cpath d='M8 16.5l5 5 11-11' fill='none' stroke='%23fff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/process.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="ui.skip">Skip to main content</a>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="./"><span class="mark" aria-hidden="true"></span><span data-i18n="ui.brand">SIR Assist</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="./" data-i18n="nav.home">Check my name</a>
+        <a href="process.html" aria-current="page" data-i18n="nav.process">How SIR works</a>
+        <a href="about.html" data-i18n="nav.about">About &amp; sources</a>
+      </nav>
+      <div class="tools">
+        <label for="lang-picker" class="visually-hidden" data-i18n="ui.language">Language</label>
+        <select id="lang-picker" aria-label="Language"><option value="en">English</option></select>
+        <button id="font-plus" type="button" aria-label="Increase text size" data-i18n-attr="aria-label:ui.textBigger">A+</button>
+        <button id="font-minus" type="button" aria-label="Decrease text size" data-i18n-attr="aria-label:ui.textSmaller">A−</button>
+        <button id="contrast-toggle" type="button" aria-pressed="false" data-i18n="ui.contrast">High contrast</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="card">
+      <h1 data-i18n="proc.title">How the Special Intensive Revision (SIR) works</h1>
+      <p data-i18n="proc.lead">SIR is a full, door-to-door re-check of the voter list. It is different from the usual yearly update where you only apply if you want a change. In an SIR, every existing voter gets a pre-filled Enumeration Form; only voters whose form is received are carried into the new draft list. Then there is a public window to fix mistakes before the final list is published.</p>
+      <p data-i18n="proc.why">The Election Commission's stated aim is that "no eligible citizen is left out while no ineligible person is included": removing people who have died, moved permanently, or appear twice, and adding people who were missed.</p>
+      <div id="proc-lead-src"></div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="proc.stagesTitle">The stages, in order</h2>
+      <ol class="timeline" id="stages"></ol>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="proc.flowTitle">What happens to one voter</h2>
+      <p class="help" data-i18n="proc.flowHelp">Follow the boxes from top to bottom. Each question has two or three possible paths.</p>
+      <div class="flow" id="flow"></div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="proc.phasesTitle">Which states are in which phase</h2>
+      <div class="legend"><span class="l1" data-i18n="proc.legend1">Phase 1 (2025)</span><span class="l2" data-i18n="proc.legend2">Phase 2 (2025–26)</span><span class="l3" data-i18n="proc.legend3">Phase 3 (2026)</span><span class="lsr" data-i18n="proc.legendSR">Special Revision (not SIR)</span><span class="l0" data-i18n="proc.legend0">Not yet scheduled</span></div>
+      <div class="state-grid" id="phase-grid"></div>
+      <p class="help" data-i18n="proc.phaseTip">Click a state to open its personalised guide.</p>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="proc.tableTitle">Phase 3 timeline, state by state</h2>
+      <p class="help" data-i18n="proc.tableHelp">Dates are as announced by the Election Commission and have been extended several times. The row is highlighted if the claims window is open today. Check the source for each state before relying on a date.</p>
+      <div class="table-wrap"><table id="phase-table"><thead><tr><th data-i18n="proc.col.state">State / UT</th><th data-i18n="proc.col.qual">Qualifying date</th><th data-i18n="proc.col.enum">BLO house visits</th><th data-i18n="proc.col.draft">Draft roll</th><th data-i18n="proc.col.claims">Claims &amp; objections</th><th data-i18n="proc.col.final">Final roll</th><th data-i18n="proc.col.status">Status today</th><th data-i18n="proc.col.src">Source</th></tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="proc.doneTitle">Phases 1 and 2 (already completed)</h2>
+      <div class="table-wrap"><table id="done-table"><thead><tr><th data-i18n="proc.col.state">State / UT</th><th data-i18n="proc.col.phase">Phase</th><th data-i18n="proc.col.qual">Qualifying date</th><th data-i18n="proc.col.final">Final roll</th><th data-i18n="proc.col.src">Source</th></tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="proc.faqTitle">Common questions</h2>
+      <div id="faq"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p data-i18n="footer.line1">SIR Assist is a free, AI-generated guide. Its text and data were written by AI (Claude) from official sources. It is a one-person side project, not an Election Commission of India website. Only official sources are used: ECI, PIB, Akashvani News, State CEO websites, the law and court judgments.</p>
+      <p><span data-i18n="footer.updated">Site data last updated:</span> <strong id="site-updated">—</strong> · <a id="footer-repo" href="https://github.com/Schefflera-Arboricola/sir-assist/issues" target="_blank" rel="noopener" data-i18n="footer.contribute">Report an error or contribute a translation</a></p>
+    </div>
+  </footer>
+</body>
+</html>
