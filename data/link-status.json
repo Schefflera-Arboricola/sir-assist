@@ -1,608 +1,608 @@
 {
- "checked": "2026-10-05",
+ "checked": "2026-10-12",
  "links": {
   "https://api.sci.gov.in/supremecourt/2025/35785/35785_2025_1_1501_71617_Judgement_27-May-2026.pdf": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": "Wed, 27 May 2026 09:08:35 GMT"
   },
   "https://apps.apple.com/in/app/id6745955212": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/12/202412041530357192.pdf": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": "Wed, 04 Dec 2024 05:45:38 GMT"
   },
   "https://ceo.gujarat.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceo.jharkhand.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceo.jharkhand.gov.in/SIRASD2026/SIRJharkhand.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceo.karnataka.gov.in/en": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceo.ladakh.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceo.mizoram.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceo.nagaland.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceo.nagaland.gov.in/sir_2026": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceo.sikkim.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "404",
    "last_modified": ""
   },
   "https://ceo.sikkim.gov.in/SIRElectoral/SIRElectoralGeneral": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "404",
    "last_modified": ""
   },
   "https://ceo.uk.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceo.uk.gov.in/sir-2026/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceoandhra.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoaperolls.ap.gov.in/SIR2002/DistrictDashboard": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoarunachal.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceoarunachal.nic.in/sir-2026": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceoassam.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoassam.nic.in/summary/special-revision-2026.html": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceochandigarh.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceochhattisgarh.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceochhattisgarh.nic.in/both/SIR.html": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceodaman.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceodaman.nic.in/IntensiveSR2002.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceodelhi.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceodelhi.gov.in/SIR2026.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoelection.bihar.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": "Mon, 05 Oct 2026 10:06:30 GMT"
   },
   "https://ceoelection.maharashtra.gov.in/Downloads/PDF/Notification/Press%20Note%20English_31.08.2026%20Draft%20Roll.pdf": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoelection.maharashtra.gov.in/ceo/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoelection.maharashtra.gov.in/ceo/ElectorRoll.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoelection.mp.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoelection.mp.gov.in/SIR2003.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceogoa.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceogoa.nic.in/appln/UIL/SIR2026.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceoharyana.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoharyana.gov.in/WebCMS/Start/1985": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceohimachal.hp.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceojk.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceolakshadweep.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceolakshadweep.gov.in/Users/sir2026": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceomanipur.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "404",
    "last_modified": ""
   },
   "https://ceomanipur.nic.in/sir.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "404",
    "last_modified": ""
   },
   "https://ceomeghalaya.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": "Mon, 05 Oct 2026 06:14:12 GMT"
   },
   "https://ceomeghalaya.nic.in/erolls/asdd/asdd.html": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": "Mon, 24 Aug 2026 06:16:44 GMT"
   },
   "https://ceoodisha.nic.in/en/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceoodisha.nic.in/repo/docs/others/SIR%20Schedule.pdf": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceopuducherry.py.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceopuducherry.py.gov.in/voters2025": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://ceotelangana.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceotelangana.nic.in/SIR_2026.html": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceotripura.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceotripura.nic.in/voter-helpline": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceouttarpradesh.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceouttarpradesh.nic.in/ASD_SIR2026.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceowestbengal.wb.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ceowestbengal.wb.gov.in/SIR": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ecinet.eci.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://ecinet.eci.gov.in/homepage/home/voterRegistrationForms": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://election.rajasthan.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://electoralsearch.eci.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": "Tue, 29 Sep 2026 16:04:29 GMT"
   },
   "https://nalsa.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://newsonair.gov.in/deadline-for-delhi-sir-applications-extended-till-august-24/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/draft-electoral-roll-under-sir-published-in-delhi-today/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/ec-extends-deadline-for-sir-in-haryana-and-andhra-for-10-more-days-till-24th-july/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/ec-revises-schedule-of-ongoing-sir-in-delhi-till-17th-of-this-month/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/eci-extends-schedule-for-sir-in-punjab-by-11-days/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/eci-extends-schedule-for-sir-of-electoral-rolls-in-five-states-uts-till-jan-19/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/election-commission-publishes-draft-voter-list-for-madhya-pradesh-following-sir-exercise/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/election-commission-publishes-draft-voter-list-in-kerala-under-sir-exercise/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/sir-iii-final-electoral-rolls-for-punjab-on-1st-oct-for-haryana-chandigarh-22nd-sep/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://newsonair.gov.in/telangana-election-commission-publishes-draft-electoral-roll/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://play.google.com/store/apps/details?id=in.gov.eci.app": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/download-eroll?stateCode=": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/download-sir-draft-roll?stateCode=": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/enumFormTrack": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/form6": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/form6a": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/form7": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/form8": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/formspdf/Form_8_English.pdf": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/guidelines/Form-6a_en.pdf": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/home/bookACallRequest": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/home/track": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://voters.eci.gov.in/searchInSIR/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://www.ceo.kerala.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "404",
    "last_modified": ""
   },
   "https://www.ceo.kerala.gov.in/sir": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "404",
    "last_modified": ""
   },
   "https://www.ceo.kerala.gov.in/uploads/sir-2026/sir-12-states.pdf": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "200",
    "last_modified": "Wed, 05 Nov 2025 06:17:43 GMT"
   },
   "https://www.ceoandaman.nic.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://www.ceoandaman.nic.in/election/AnnounceContent/Enumeration%20Form.pdf": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://www.ceoandaman.nic.in/election/E-ROLL-2002/default.htm": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://www.ceopunjab.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://www.eci.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://www.eci.gov.in/download-forms": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://www.eci.gov.in/electoral-roll": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "406",
    "last_modified": ""
   },
   "https://www.elections.tn.gov.in/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://www.elections.tn.gov.in/SIR_2026.aspx": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "unreachable",
    "last_modified": ""
   },
   "https://www.legislative.gov.in/electionlawsrelated/representation-people-act-1950-43-1950": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/assam-to-publish-final-electoral-roll-after-door-to-door-special-revision": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/ec-extends-deadline-for-filing-claims-objections-under-sir-of-electoral-rolls-in-uttar-pradesh": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/ec-orders-special-revision-of-assam-electoral-rolls-effective-1-january-2026": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/ec-revises-schedule-for-special-intensive-revision-in-uttar-pradesh": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/eci-publishes-final-electoral-rolls-for-state-of-tamil-nadu/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/eci-publishes-final-voter-list-for-special-revision-in-assam-extends-west-bengal-sir-deadline-to-feb-28": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/election-commission-of-india-releases-final-electoral-roll-for-gujarat": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/election-commission-publishes-chhattisgarhs-final-electoral-roll": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/election-commission-releases-draft-electoral-rolls-for-four-states-uts-under-sir-exercise/": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.newsonair.gov.in/supreme-court-allows-aadhaar-as-12th-identity-document-for-bihar-voter-list-revision": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1845738": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2151531": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173316": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2183805": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2186480": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2196502": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2202341": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2217429": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2260955": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2267217": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289473": {
-   "checked": "2026-10-05",
+   "checked": "2026-10-12",
    "status": "403",
    "last_modified": ""
   }
